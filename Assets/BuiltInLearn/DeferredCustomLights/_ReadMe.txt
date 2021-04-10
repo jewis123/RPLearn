@@ -2,7 +2,8 @@
 it shows how command buffers can be used to implement custom lights that
 compute scene illumination in deferred shading.
 
-The idea is: after regular deferred shading light pass is done,
+The idea is: 
+after regular deferred shading light pass is done,
 draw a sphere for each custom light, with a shader that computes illumination
 and adds it to the lighting buffer.
 
