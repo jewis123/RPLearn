@@ -1,12 +1,13 @@
 {
   "dependencies": {
     "com.render-pipelines.custom": {
-      "version": "file:C:/Users/Jervie/Downloads/CustomSRP-master",
+      "version": "https://github.com/phi-lira/CustomSRP.git",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.unity.render-pipelines.core": "7.2.0"
-      }
+      },
+      "hash": "839a5a9c88ebaab5cf1d380f4360eb4d156e6cd0"
     },
     "com.unity.ext.nunit": {
       "version": "1.0.0",
